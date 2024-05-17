@@ -1,4 +1,5 @@
-﻿@model BookingSite.Model.Listingi
+﻿@using System.Runtime.InteropServices.JavaScript
+@model BookingSite.Model.Listingi
 @{
     ViewData["Title"] = "Listing";
 }
@@ -12,14 +13,33 @@
             <p>@Model.Opis</p>
         </div>
     </article>
-    <div>
-        <h2>Reserve this listing</h2>
-        <form>
-            From: <br/>
-            <input type="date" min="@Model.DatumOd.Value.ToString("yyyy-MM-dd")" max="@Model.DatumDo.Value.ToString("yyyy-MM-dd")"/>
-            <br/>
-            Till: <br/>
-            <input type="date" min="@Model.DatumOd.Value.ToString("yyyy-MM-dd")" max="@Model.DatumDo.Value.ToString("yyyy-MM-dd")"/>
-        </form>
+    <div class="reserve_container">
+        <div class="reserve_form">
+            <h2>Reserve this listing</h2>
+                <form>
+                    From: <br/>
+                    <input id="from_date_input" type="date" min="@DateTime.Now.ToString("yyyy-MM-dd")" max="@Model.DatumDo.Value.ToString("yyyy-MM-dd")" onchange="handler(event);"/>
+                    <br/>
+                    Untill: <br/>
+                    <input id="till_date_input" type="date" disabled="disabled" min="@DateTime.Now.ToString("yyyy-MM-dd")" max="@Model.DatumDo.Value.ToString("yyyy-MM-dd")"/>
+                </form>
+        </div>
+        <div class="reserve_calendar">
+            
+        </div>
     </div>
 </div>
+
+<script>
+    var from_input = document.getElementById("from_date_input");
+    var till_input = document.getElementById("till_date_input");
+    
+    function handler(e){
+     if(e.target.value != null){
+         till_input.disabled = false;
+         till_input.setAttribute("min", e.target.value);
+     }
+     else
+         till_input.disabled = true;
+   }
+</script>

@@ -39,6 +39,23 @@ html {
   grid-area: ldesc;
 }
 
+.reserve_container {
+  display: grid;
+
+  grid-template-columns: 25% 75%;
+  grid-template-areas: 'rform rcalendar';
+  
+  padding-top: 30px;
+}
+
+.reserve_form{
+  grid-area: rform;
+}
+
+.reserve_calendar{
+  grid-area: rcalendar;
+}
+
 body {
   margin-bottom: 60px;
 }

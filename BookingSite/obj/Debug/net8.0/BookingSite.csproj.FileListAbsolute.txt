@@ -147,3 +147,4 @@
 /Users/tomazcede/Documents/Faks/RisBooking/BookingSite/bin/Debug/net8.0/runtimes/win-x64/native/k5sprt64.dll
 /Users/tomazcede/Documents/Faks/RisBooking/BookingSite/bin/Debug/net8.0/runtimes/win-x64/native/krb5_64.dll
 /Users/tomazcede/Documents/Faks/RisBooking/BookingSite/bin/Debug/net8.0/runtimes/win-x64/native/krbcc64.dll
+/Users/tomazcede/Documents/Faks/RisBooking/BookingSite/obj/Debug/net8.0/BookingSite.sourcelink.json
