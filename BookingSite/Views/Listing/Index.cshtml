@@ -1,0 +1,25 @@
+﻿@model BookingSite.Model.Listingi
+@{
+    ViewData["Title"] = "Listing";
+}
+<div>
+    <article class="listing-article">
+        <img class="listing-img" alt="Building Img" src="/Content/Images/defaultImg.jpeg" height="200"/>
+        <h3 class="listing-title">@Model.Neprimicnina.Naslov, @Model.Neprimicnina.PostnaSt @Model.Neprimicnina.Kraj</h3>
+        <div class="listing-info">@Model.DatumOd.Value.ToString("d") - @Model.DatumDo.Value.ToString("d")</div>
+        <div class="listing-desc">
+            <h4>Opis:</h4>
+            <p>@Model.Opis</p>
+        </div>
+    </article>
+    <div>
+        <h2>Reserve this listing</h2>
+        <form>
+            From: <br/>
+            <input type="date" min="@Model.DatumOd.Value.ToString("yyyy-MM-dd")" max="@Model.DatumDo.Value.ToString("yyyy-MM-dd")"/>
+            <br/>
+            Till: <br/>
+            <input type="date" min="@Model.DatumOd.Value.ToString("yyyy-MM-dd")" max="@Model.DatumDo.Value.ToString("yyyy-MM-dd")"/>
+        </form>
+    </div>
+</div>

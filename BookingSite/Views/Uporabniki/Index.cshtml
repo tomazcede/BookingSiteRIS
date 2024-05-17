@@ -1,0 +1,11 @@
+﻿@model BookingSite.Model.Uporabniki
+@{
+    ViewData["Title"] = "Uporabnik";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome @Model.Ime @Model.Priimek</h1>
+    <form asp-action="Logout">
+        <input type="submit" value="Log out"/>
+    </form>
+</div>

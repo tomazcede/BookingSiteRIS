@@ -1,0 +1,34 @@
+﻿@model List<BookingSite.Model.Listingi>
+@{
+    ViewData["Title"] = "BookingSite Home Page";
+    var st = 0;
+}
+
+<div class="text-center">
+    <h1 class="display-4">BookingSite</h1>
+    <p>Search for your next vacation:</p>
+    <form asp-controller="Listing" asp-action="Search" method="get">
+        <input type="text" placeholder="city, country..." name="searchtext" id="searchtext"/>
+        <input type="submit"/>
+    </form>
+</div>
+<div class="text-center" style="padding-top: 40px;">
+    <h2>Popular listings:</h2>
+    <div>
+        @foreach (var listing in Model)
+        {
+            if(st == 3)
+                break;
+            
+            <article style="display: inline-block; padding: 10px;">
+                <a href="Listing?id=@listing.ListingId">
+                    <img src="/Content/Images/defaultImg.jpeg" height="200"/>
+                    <h3>@listing.Neprimicnina.Naslov, @listing.Neprimicnina.PostnaSt @listing.Neprimicnina.Kraj</h3>
+                    <div>@listing.DatumOd.Value.ToString("d") - @listing.DatumDo.Value.ToString("d")</div>
+                </a>
+            </article>
+            
+            st++;
+        }
+    </div>
+</div>

@@ -1,0 +1,44 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.listing-article {
+  display: grid;
+
+  grid-template-columns: 25% 75%;
+  grid-template-areas: 'limg ldesc'
+                        'ltitle ldesc'
+                        'linfo ldesc';
+}
+
+.listing-img{
+  grid-area: limg;
+}
+.listing-title{
+  grid-area: ltitle;
+}
+.listing-info{
+  grid-area: linfo;
+}
+.listing-desc{
+  grid-area: ldesc;
+}
+
+body {
+  margin-bottom: 60px;
+}

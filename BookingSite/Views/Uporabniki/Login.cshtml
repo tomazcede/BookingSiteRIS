@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Login page";
+    var st = 0;
+}
+
+<div class="text-center">
+    <h1 class="display-4">BookingSite</h1>
+    <p>Login to the site:</p>
+    <form asp-action="AuthUser" data-ajax="true" data-ajax-method="Get">
+        <span>Email:</span>
+        <br />
+        <input type="text" name="email" id="email"/>
+        <br />
+        <span>Password:</span>
+        <br />
+        <input type="password" name="password" id="password"/>
+        <br />
+        <input type="submit"/>
+    </form>
+</div>
