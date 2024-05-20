@@ -42,10 +42,11 @@ html {
 .reserve_container {
   display: grid;
 
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 50% 50%;
   grid-template-areas: 'rform rcalendar';
   
   padding-top: 30px;
+  padding-bottom: 65px;
 }
 
 .reserve_form{

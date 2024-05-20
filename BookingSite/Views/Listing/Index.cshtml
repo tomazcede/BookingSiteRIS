@@ -2,7 +2,9 @@
 @model BookingSite.Model.Listingi
 @{
     ViewData["Title"] = "Listing";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
 <div>
     <article class="listing-article">
         <img class="listing-img" alt="Building Img" src="/Content/Images/defaultImg.jpeg" height="200"/>
@@ -16,30 +18,53 @@
     <div class="reserve_container">
         <div class="reserve_form">
             <h2>Reserve this listing</h2>
-                <form>
-                    From: <br/>
-                    <input id="from_date_input" type="date" min="@DateTime.Now.ToString("yyyy-MM-dd")" max="@Model.DatumDo.Value.ToString("yyyy-MM-dd")" onchange="handler(event);"/>
-                    <br/>
-                    Untill: <br/>
-                    <input id="till_date_input" type="date" disabled="disabled" min="@DateTime.Now.ToString("yyyy-MM-dd")" max="@Model.DatumDo.Value.ToString("yyyy-MM-dd")"/>
-                </form>
+            <form asp-action="BookListing" method="get">
+                <input type="hidden" name="id" value="@Model.ListingId"/>
+                From: <br/>
+                <input required="required" id="from_date_input" name="from_date" type="date" min="@DateTime.Now.ToString("yyyy-MM-dd")" max="@Model.DatumDo.Value.ToString("yyyy-MM-dd")" onchange="handler(event);"/>
+                <br/>
+                Untill: <br/>
+                <input required="required" id="till_date_input" name="till_date" type="date" disabled="disabled" min="@DateTime.Now.ToString("yyyy-MM-dd")" max="@Model.DatumDo.Value.ToString("yyyy-MM-dd")"/>
+                <br/>
+                <input type="submit" value="Book this listing!"/>
+            </form>
         </div>
         <div class="reserve_calendar">
-            
+            <h2>Current reservations:</h2>
+            <div id="calendar"></div>
         </div>
     </div>
 </div>
-
+@Html.Raw(TempData["msg"])
 <script>
     var from_input = document.getElementById("from_date_input");
     var till_input = document.getElementById("till_date_input");
     
     function handler(e){
-     if(e.target.value != null){
-         till_input.disabled = false;
-         till_input.setAttribute("min", e.target.value);
-     }
-     else
-         till_input.disabled = true;
+         till_input.value = null;
+         if(e.target.value != null){
+             till_input.disabled = false;
+             till_input.setAttribute("min", e.target.value);
+         }
+         else
+             till_input.disabled = true;
    }
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('#calendar').fullCalendar({
+            events: [
+                @foreach (var res in Model.Rezervacijes)
+                {
+                    @: {
+                    @: title : 'Reservation',
+                    @: start : '@res.DatumOd.Value.ToString("yyyy-MM-dd")',
+                    @: end : '@res.DatumDo.Value.AddDays(1).ToString("yyyy-MM-dd")'
+                    @: },
+                }
+            ],
+            eventColor: '#378006'
+        });
+    });
 </script>
