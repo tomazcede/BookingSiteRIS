@@ -18,9 +18,9 @@ public class ListingController : Controller
     public async Task<IActionResult> Index(int id, Boolean reserved_err = false, Boolean reserved_succ = false)
     {
         if(reserved_err)
-            TempData["msg"] = "<script>alert('Invalid date interval, check the other reservations');</script>";
+            TempData["msg"] = "<script>window.addEventListener('load', function () {  alert(\"Invalid date interval, check the other reservations\")})</script>";
         if(reserved_succ)
-            TempData["msg"] = "<script>alert('Reservation added successfully');</script>";
+            TempData["msg"] = "<script>window.addEventListener('load', function () {  alert(\"Reservation added successfully\")})</script>";
         var listing = await _context.Listingis.Include(u => u.Neprimicnina).Include(u => u.Rezervacijes)
             .FirstOrDefaultAsync(m => m.ListingId == id);
         if (listing == null)

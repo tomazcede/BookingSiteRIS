@@ -2,7 +2,6 @@
     ViewData["Title"] = "Login page";
     var st = 0;
 }
-
 <div class="text-center">
     <h1 class="display-4">BookingSite</h1>
     <p>Login to the site:</p>
@@ -18,3 +17,4 @@
         <input type="submit"/>
     </form>
 </div>
+@Html.Raw(TempData["msg"])

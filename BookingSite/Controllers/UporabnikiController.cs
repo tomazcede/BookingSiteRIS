@@ -29,8 +29,11 @@ public class UporabnikiController : Controller
         var user = _context.Uporabnikis.FirstOrDefault(u => u.Email == HttpContext.User.Identity.Name);
         return View(user);
     }
-    public IActionResult Login()
+    public IActionResult Login(Boolean failed = false)
     {
+        if (failed) {
+            TempData["msg"] = "<script>window.addEventListener('load', function () {  alert(\"Login failed\")})</script>";
+        }
         return View();
     }
     
@@ -43,10 +46,19 @@ public class UporabnikiController : Controller
             iterationCount: 100000,
             numBytesRequested: 256 / 8));
 
-        Uporabniki search = _context.Uporabnikis.Include(u => u.TipUporabnika).First(u => u.Email == email && u.Geslo == password);
+        Uporabniki search;
+        
+        try
+        {
+            search = _context.Uporabnikis.Include(u => u.TipUporabnika).First(u => u.Email == email && u.Geslo == password);
+        }
+        catch (Exception e)
+        {
+            return RedirectToAction("Login", new { failed = true});
+        }
     
         if(search == null)
-            return RedirectToAction("Login");
+            return RedirectToAction("Login", new { failed = true});
 
         var claims = new List<Claim>
         {
