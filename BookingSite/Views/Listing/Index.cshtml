@@ -2,6 +2,7 @@
 @model BookingSite.Model.Listingi
 @{
     ViewData["Title"] = "Listing";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <div>
@@ -30,13 +31,7 @@
         </div>
         <div class="reserve_calendar">
             <h2>Current reservations:</h2>
-            @foreach (var res in Model.Rezervacijes)
-            {
-                <p>
-                    <div>@res.DatumOd.Value.ToString("d") - @res.DatumDo.Value.ToString("d")</div>
-                </p>
-
-            }
+            <div id="calendar"></div>
         </div>
     </div>
 </div>
@@ -54,4 +49,22 @@
          else
              till_input.disabled = true;
    }
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('#calendar').fullCalendar({
+            events: [
+                @foreach (var res in Model.Rezervacijes)
+                {
+                    @: {
+                    @: title : 'Reservation',
+                    @: start : '@res.DatumOd.Value.ToString("yyyy-MM-dd")',
+                    @: end : '@res.DatumDo.Value.AddDays(1).ToString("yyyy-MM-dd")'
+                    @: },
+                }
+            ],
+            eventColor: '#378006'
+        });
+    });
 </script>
