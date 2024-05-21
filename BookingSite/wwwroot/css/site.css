@@ -60,3 +60,30 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.listing-article img {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.reserve_container {
+    margin-top: 2rem;
+}
+
+.reserve_form {
+    margin-bottom: 2rem;
+}
+
+#calendar {
+    margin-top: 1rem;
+}

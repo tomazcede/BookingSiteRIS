@@ -1,70 +1,81 @@
-﻿@using System.Runtime.InteropServices.JavaScript
-@model BookingSite.Model.Listingi
+﻿@model BookingSite.Model.Listingi
 @{
     ViewData["Title"] = "Listing";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div>
-    <article class="listing-article">
-        <img class="listing-img" alt="Building Img" src="/Content/Images/defaultImg.jpeg" height="200"/>
-        <h3 class="listing-title">@Model.Neprimicnina.Naslov, @Model.Neprimicnina.PostnaSt @Model.Neprimicnina.Kraj</h3>
-        <div class="listing-info">@Model.DatumOd.Value.ToString("d") - @Model.DatumDo.Value.ToString("d")</div>
-        <div class="listing-desc">
-            <h4>Description:</h4>
-            <p>@Model.Opis</p>
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8">
+            <article class="card mb-4">
+                <img class="card-img-top" src="~/Content/Images/defaultImg.jpeg" alt="Building Img" />
+                <div class="card-body">
+                    <h3 class="card-title">@Model.Neprimicnina.Naslov, @Model.Neprimicnina.PostnaSt @Model.Neprimicnina.Kraj</h3>
+                    <p class="card-text">@Model.DatumOd.Value.ToString("d") - @Model.DatumDo.Value.ToString("d")</p>
+                    <h4>Description:</h4>
+                    <p>@Model.Opis</p>
+                </div>
+            </article>
         </div>
-    </article>
-    <div class="reserve_container">
-        <div class="reserve_form">
-            <h2>Reserve this listing</h2>
-            <form asp-action="BookListing" method="get">
-                <input type="hidden" name="id" value="@Model.ListingId"/>
-                From: <br/>
-                <input required="required" id="from_date_input" name="from_date" type="date" min="@DateTime.Now.ToString("yyyy-MM-dd")" max="@Model.DatumDo.Value.ToString("yyyy-MM-dd")" onchange="handler(event);"/>
-                <br/>
-                Untill: <br/>
-                <input required="required" id="till_date_input" name="till_date" type="date" disabled="disabled" min="@DateTime.Now.ToString("yyyy-MM-dd")" max="@Model.DatumDo.Value.ToString("yyyy-MM-dd")"/>
-                <br/>
-                <input type="submit" value="Book this listing!"/>
-            </form>
-        </div>
-        <div class="reserve_calendar">
-            <h2>Current reservations:</h2>
-            <div id="calendar"></div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2>Reserve this listing</h2>
+                    <form asp-action="BookListing" method="get">
+                        <input type="hidden" name="id" value="@Model.ListingId" />
+                        <div class="mb-3">
+                            <label for="from_date_input" class="form-label">From:</label>
+                            <input required class="form-control" id="from_date_input" name="from_date" type="date" min="@DateTime.Now.ToString("yyyy-MM-dd")" max="@Model.DatumDo.Value.ToString("yyyy-MM-dd")" onchange="handler(event);" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="till_date_input" class="form-label">Until:</label>
+                            <input required class="form-control" id="till_date_input" name="till_date" type="date" disabled min="@DateTime.Now.ToString("yyyy-MM-dd")" max="@Model.DatumDo.Value.ToString("yyyy-MM-dd")" />
+                        </div>
+                        <button type="submit" class="btn btn-primary">Book this listing!</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h2>Current reservations:</h2>
+                    <div id="calendar"></div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
 @Html.Raw(TempData["msg"])
+
 <script>
     var from_input = document.getElementById("from_date_input");
     var till_input = document.getElementById("till_date_input");
-    
-    function handler(e){
-         till_input.value = null;
-         if(e.target.value != null){
-             till_input.disabled = false;
-             till_input.setAttribute("min", e.target.value);
-         }
-         else
-             till_input.disabled = true;
-   }
+
+    function handler(e) {
+        till_input.value = null;
+        if (e.target.value != null) {
+            till_input.disabled = false;
+            till_input.setAttribute("min", e.target.value);
+        } else {
+            till_input.disabled = true;
+        }
+    }
 </script>
 
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('#calendar').fullCalendar({
             events: [
-                @foreach (var res in Model.Rezervacijes)
-                {
-                    @: {
-                    @: title : 'Reservation',
-                    @: start : '@res.DatumOd.Value.ToString("yyyy-MM-dd")',
-                    @: end : '@res.DatumDo.Value.AddDays(1).ToString("yyyy-MM-dd")'
-                    @: },
-                }
-            ],
+    @foreach (var res in Model.Rezervacijes)
+    {
+        @:{
+        @:title: 'Reservation',
+        @:start: '@res.DatumOd.Value.ToString("yyyy-MM-dd")',
+        @:end: '@res.DatumDo.Value.AddDays(1).ToString("yyyy-MM-dd")'
+        @: },
+    }
+                    ],
             eventColor: '#378006'
-        });
-    });
+                });
+            });
 </script>
