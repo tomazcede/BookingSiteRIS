@@ -9,55 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BookingSite
 build_property.RootNamespace = BookingSite
-build_property.ProjectDir = /Users/tomazcede/Documents/Faks/RisBooking/BookingSite/
+build_property.ProjectDir = C:\Users\simoj\Documents\Jakob Šula\Fkas 2.letnik\Razvoj informacijskih sistemov\pr\BookingSite\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/tomazcede/Documents/Faks/RisBooking/BookingSite
+build_property.MSBuildProjectDirectory = C:\Users\simoj\Documents\Jakob Šula\Fkas 2.letnik\Razvoj informacijskih sistemov\pr\BookingSite
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/tomazcede/Documents/Faks/RisBooking/BookingSite/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/simoj/Documents/Jakob Šula/Fkas 2.letnik/Razvoj informacijskih sistemov/pr/BookingSite/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tomazcede/Documents/Faks/RisBooking/BookingSite/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/Users/simoj/Documents/Jakob Šula/Fkas 2.letnik/Razvoj informacijskih sistemov/pr/BookingSite/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tomazcede/Documents/Faks/RisBooking/BookingSite/Views/Listing/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlzdGluZy9JbmRleC5jc2h0bWw=
+[C:/Users/simoj/Documents/Jakob Šula/Fkas 2.letnik/Razvoj informacijskih sistemov/pr/BookingSite/Views/Listing/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tomazcede/Documents/Faks/RisBooking/BookingSite/Views/Listing/Search.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlzdGluZy9TZWFyY2guY3NodG1s
+[C:/Users/simoj/Documents/Jakob Šula/Fkas 2.letnik/Razvoj informacijskih sistemov/pr/BookingSite/Views/Listing/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ1xTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tomazcede/Documents/Faks/RisBooking/BookingSite/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/simoj/Documents/Jakob Šula/Fkas 2.letnik/Razvoj informacijskih sistemov/pr/BookingSite/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tomazcede/Documents/Faks/RisBooking/BookingSite/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/simoj/Documents/Jakob Šula/Fkas 2.letnik/Razvoj informacijskih sistemov/pr/BookingSite/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tomazcede/Documents/Faks/RisBooking/BookingSite/Views/Uporabniki/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXBvcmFibmlraS9JbmRleC5jc2h0bWw=
+[C:/Users/simoj/Documents/Jakob Šula/Fkas 2.letnik/Razvoj informacijskih sistemov/pr/BookingSite/Views/Uporabniki/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvcmFibmlraVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tomazcede/Documents/Faks/RisBooking/BookingSite/Views/Uporabniki/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXBvcmFibmlraS9Mb2dpbi5jc2h0bWw=
+[C:/Users/simoj/Documents/Jakob Šula/Fkas 2.letnik/Razvoj informacijskih sistemov/pr/BookingSite/Views/Uporabniki/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvcmFibmlraVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tomazcede/Documents/Faks/RisBooking/BookingSite/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/simoj/Documents/Jakob Šula/Fkas 2.letnik/Razvoj informacijskih sistemov/pr/BookingSite/Views/Uporabniki/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvcmFibmlraVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tomazcede/Documents/Faks/RisBooking/BookingSite/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/simoj/Documents/Jakob Šula/Fkas 2.letnik/Razvoj informacijskih sistemov/pr/BookingSite/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tomazcede/Documents/Faks/RisBooking/BookingSite/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-1lep85dyf2
+[C:/Users/simoj/Documents/Jakob Šula/Fkas 2.letnik/Razvoj informacijskih sistemov/pr/BookingSite/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/simoj/Documents/Jakob Šula/Fkas 2.letnik/Razvoj informacijskih sistemov/pr/BookingSite/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-dixgqk6zla

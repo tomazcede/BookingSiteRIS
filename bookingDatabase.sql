@@ -166,11 +166,8 @@ UNLOCK TABLES;
 -- Table structure for table `uporabniki`
 --
 
-DROP TABLE IF EXISTS `uporabniki`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `uporabniki` (
-  `uporabnik_id` int(11) NOT NULL,
+  `uporabnik_id` int(11) NOT NULL AUTO_INCREMENT,
   `ime` varchar(255) DEFAULT NULL,
   `priimek` varchar(255) DEFAULT NULL,
   `datum_rojstva` varchar(255) DEFAULT NULL,

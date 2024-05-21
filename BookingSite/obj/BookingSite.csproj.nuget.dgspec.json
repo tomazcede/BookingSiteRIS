@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tomazcede/Documents/Faks/RisBooking/BookingSite/BookingSite.csproj": {}
+    "C:\\Users\\simoj\\Documents\\Jakob Šula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\BookingSite.csproj": {}
   },
   "projects": {
-    "/Users/tomazcede/Documents/Faks/RisBooking/BookingSite/BookingSite.csproj": {
+    "C:\\Users\\simoj\\Documents\\Jakob Šula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\BookingSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tomazcede/Documents/Faks/RisBooking/BookingSite/BookingSite.csproj",
+        "projectUniqueName": "C:\\Users\\simoj\\Documents\\Jakob Šula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\BookingSite.csproj",
         "projectName": "BookingSite",
-        "projectPath": "/Users/tomazcede/Documents/Faks/RisBooking/BookingSite/BookingSite.csproj",
-        "packagesPath": "/Users/tomazcede/.nuget/packages/",
-        "outputPath": "/Users/tomazcede/Documents/Faks/RisBooking/BookingSite/obj/",
+        "projectPath": "C:\\Users\\simoj\\Documents\\Jakob Šula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\BookingSite.csproj",
+        "packagesPath": "C:\\Users\\simoj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simoj\\Documents\\Jakob Šula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/tomazcede/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\simoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -72,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

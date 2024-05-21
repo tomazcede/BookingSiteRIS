@@ -56,7 +56,7 @@ public class ListingController : Controller
 
         Rezervacije r = new Rezervacije();
         r.ListingId = id;
-        r.UporabnikId = _context.Uporabnikis.FirstOrDefault(d => d.Email == HttpContext.User.Identity.Name).UporabnikId;
+        r.UporabnikId = _context.Uporabniki.FirstOrDefault(d => d.Email == HttpContext.User.Identity.Name).UporabnikId;
         r.DatumOd = from;
         r.DatumDo = till;
         r.RezervacijaId = _context.Rezervacijes.Count() + 1;

@@ -25,7 +25,7 @@ public partial class BookingDatabaseContext : DbContext
 
     public virtual DbSet<TipiUporabnika> TipiUporabnikas { get; set; }
 
-    public virtual DbSet<Uporabniki> Uporabnikis { get; set; }
+    public virtual DbSet<Uporabniki> Uporabniki { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -207,11 +207,9 @@ public partial class BookingDatabaseContext : DbContext
 
         modelBuilder.Entity<Uporabniki>(entity =>
         {
-            entity.HasKey(e => e.UporabnikId).HasName("PRIMARY");
-
-            entity.ToTable("uporabniki", "bookingdatabase");
-
-            entity.HasIndex(e => e.TipUporabnikaId, "tip_uporabnika_id");
+            entity.ToTable("uporabniki");
+            entity.HasKey(e => e.UporabnikId);
+            entity.Property(e => e.UporabnikId).ValueGeneratedOnAdd();
 
             entity.Property(e => e.UporabnikId)
                 .HasColumnType("int(11)")
