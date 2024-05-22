@@ -1,8 +1,7 @@
+using System.Diagnostics;
 using BookingSite.Model;
 using BookingSite.Models;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
 using Microsoft.EntityFrameworkCore;
 
 public class ListingController : Controller
@@ -14,12 +13,12 @@ public class ListingController : Controller
         _context = new BookingDatabaseContext();
     }
 
-    public async Task<IActionResult> Index(int id, Boolean reserved_err = false, Boolean reserved_succ = false)
+    public async Task<IActionResult> Index(int id, bool reserved_err = false, bool reserved_succ = false)
     {
         if (reserved_err)
-            TempData["msg"] = "<script>window.addEventListener('load', function () {  alert(\"Invalid date interval, check the other reservations\")})</script>";
+            TempData["msg"] = "<script>window.addEventListener('load', function () { alert(\"Invalid date interval, check the other reservations\") })</script>";
         if (reserved_succ)
-            TempData["msg"] = "<script>window.addEventListener('load', function () {  alert(\"Reservation added successfully\")})</script>";
+            TempData["msg"] = "<script>window.addEventListener('load', function () { alert(\"Reservation added successfully\") })</script>";
 
         var listing = await _context.Listingis.Include(u => u.Neprimicnina).Include(u => u.Rezervacijes)
             .FirstOrDefaultAsync(m => m.ListingId == id);
@@ -73,31 +72,44 @@ public class ListingController : Controller
     // GET: Listing/Create
     public IActionResult Create()
     {
-        ViewBag.Neprimicnine = new SelectList(_context.Neprimicnines, "NepremicninaId", "Naslov");
         return View();
     }
 
     // POST: Listing/Create
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Create([Bind("DatumOd,DatumDo,NeprimicninaId,Opis,SlikaUrl")] Listingi listing)
+    public async Task<IActionResult> Create([Bind("DatumOd,DatumDo,Neprimicnina,Opis,SlikaUrl")] Listingi listing)
     {
         if (ModelState.IsValid)
         {
-            var neprimicninaExists = _context.Neprimicnines.Any(n => n.NepremicninaId == listing.NeprimicninaId);
-            if (!neprimicninaExists)
+            if (listing.Neprimicnina != null && !string.IsNullOrWhiteSpace(listing.Neprimicnina.Naslov))
             {
-                ModelState.AddModelError("NeprimicninaId", "Invalid NeprimicninaId. The specified property does not exist.");
-                ViewBag.Neprimicnine = new SelectList(_context.Neprimicnines, "NepremicninaId", "Naslov");
-                return View(listing);
-            }
+                // Check if the property already exists
+                var property = await _context.Neprimicnines.FirstOrDefaultAsync(p => p.Naslov == listing.Neprimicnina.Naslov);
+                if (property == null)
+                {
+                    property = new Neprimicnine
+                    {
+                        Naslov = listing.Neprimicnina.Naslov,
+                        // Add other default values or fields as necessary
+                    };
+                    _context.Neprimicnines.Add(property);
+                    await _context.SaveChangesAsync();
+                }
 
-            _context.Add(listing);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index), "Home");
+                listing.NeprimicninaId = property.NepremicninaId;
+                listing.Neprimicnina = null; // Avoid EF tracking issues
+
+                _context.Add(listing);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(List));
+            }
+            else
+            {
+                ModelState.AddModelError("Neprimicnina.Naslov", "The property address is required.");
+            }
         }
 
-        ViewBag.Neprimicnine = new SelectList(_context.Neprimicnines, "NepremicninaId", "Naslov");
         return View(listing);
     }
 

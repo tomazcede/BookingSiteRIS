@@ -1,34 +1,55 @@
-﻿@model List<BookingSite.Model.Listingi>
-@{
+﻿@{
     ViewData["Title"] = "BookingSite Home Page";
-    var st = 0;
 }
 
 <div class="text-center">
     <h1 class="display-4">BookingSite</h1>
     <p>Search for your next vacation:</p>
     <form asp-controller="Listing" asp-action="Search" method="get">
-        <input type="text" placeholder="city, country..." name="searchtext" id="searchtext"/>
-        <input type="submit"/>
+        <input type="text" placeholder="city, country..." name="searchtext" id="searchtext" />
+        <input type="submit" />
     </form>
 </div>
+
 <div class="text-center" style="padding-top: 40px;">
     <h2>Popular listings:</h2>
-    <div>
-        @foreach (var listing in Model)
-        {
-            if(st == 3)
-                break;
-            
-            <article style="display: inline-block; padding: 10px;">
-                <a href="Listing?id=@listing.ListingId">
-                    <img src="/Content/Images/defaultImg.jpeg" height="200"/>
-                    <h3>@listing.Neprimicnina.Naslov, @listing.Neprimicnina.PostnaSt @listing.Neprimicnina.Kraj</h3>
-                    <div>@listing.DatumOd.Value.ToString("d") - @listing.DatumDo.Value.ToString("d")</div>
-                </a>
-            </article>
-            
-            st++;
-        }
+    <br />
+    <div class="row">
+        <!-- Listing 1 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img class="card-img-top" src="https://cdn.onekindesign.com/wp-content/uploads/2016/11/Contemporary-Mountain-Retreat-Berglund-Architects-01-1-Kindesign.jpg" alt="Mountain Retreat">
+                <div class="card-body">
+                    <h5 class="card-title">Mountain Retreat, 1234 Highland Rd</h5>
+                    <p class="card-text">Beautiful mountain retreat with stunning views.</p>
+                    <p class="card-text">1.01.2024 - 1.11.2024</p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+        <!-- Listing 2 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img class="card-img-top" src="https://images.squarespace-cdn.com/content/v1/59e362d79f8dce1fae530988/1623838448417-VAAUP15MFX5Z1D89P06O/redwood.jpg" alt="Forest Cabin">
+                <div class="card-body">
+                    <h5 class="card-title">Forest Cabin, 5678 Woodland Dr</h5>
+                    <p class="card-text">Serene forest cabin perfect for a quiet getaway.</p>
+                    <p class="card-text">10.05.2024 - 30.05.2024</p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+        <!-- Listing 3 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img class="card-img-top" src="https://www.phillymag.com/wp-content/uploads/sites/3/2019/07/tiny-beach-house-lede.jpg" alt="Beach House">
+                <div class="card-body">
+                    <h5 class="card-title">Beach House, 910 Seaside Ave</h5>
+                    <p class="card-text">Relaxing beach house with direct access to the shore.</p>
+                    <p class="card-text">15.06.2024 - 20.06.2024</p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
