@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace BookingSite.Model;
 
 public partial class Listingi
 {
+    [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int ListingId { get; set; }
 
     public DateTime? DatumOd { get; set; }
@@ -18,6 +22,7 @@ public partial class Listingi
     public string? Opis { get; set; }
 
     public string? SlikaUrl { get; set; }
+
 
     public virtual Neprimicnine? Neprimicnina { get; set; }
 

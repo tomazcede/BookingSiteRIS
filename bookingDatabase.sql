@@ -49,7 +49,7 @@ DROP TABLE IF EXISTS `listingi`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `listingi` (
-  `listing_id` int(11) NOT NULL,
+  `listing_id` int(11) NOT NULL AUTO_INCREMENT,
   `datum_od` date DEFAULT NULL,
   `datum_do` date DEFAULT NULL,
   `neprimicnina_id` int(11) DEFAULT NULL,

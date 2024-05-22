@@ -1,0 +1,24 @@
+﻿@model List<BookingSite.Model.Listingi>
+
+@{
+    ViewData["Title"] = "Listings";
+}
+
+<h2>Available Listings</h2>
+
+<div class="row">
+    @foreach (var listing in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img class="card-img-top" src="@(string.IsNullOrEmpty(listing.SlikaUrl) ? Url.Content("~/images/defaultImg.jpeg") : listing.SlikaUrl)" alt="Listing Image">
+                <div class="card-body">
+                    <h5 class="card-title">@listing.Neprimicnina.Naslov, @listing.Neprimicnina.PostnaSt @listing.Neprimicnina.Kraj</h5>
+                    <p class="card-text">@listing.Opis</p>
+                    <p class="card-text">@listing.DatumOd.Value.ToString("d") - @listing.DatumDo.Value.ToString("d")</p>
+                    <a href="@Url.Action("Index", "Listing", new { id = listing.ListingId })" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
