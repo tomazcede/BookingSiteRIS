@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SDlIsqkouCdYJ46aNW336mibPOlaZ0iLDPN9KarKwjiolsLySTusN6yNlh1xZZWRbydPYB1bqmlu3T3nwcKieA==",
+  "dgSpecHash": "+gMgR8gxfrH0iLHntiCjeqeXyISpG4O7yvRIE0V6jz/zC4Sw/1Jg5goQ378kH/Ceyssw6l0b6v7Rz5MAzTwc6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\simoj\\Documents\\Jakob Šula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\BookingSite.csproj",
+  "projectFilePath": "C:\\Users\\simoj\\Documents\\Jakob Šula\\Fkas 2 letnik\\Razvoj informacijskih sistemov\\RIS-koncna\\BookingSite\\BookingSite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simoj\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\simoj\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

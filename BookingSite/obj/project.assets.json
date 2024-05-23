@@ -4820,24 +4820,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\simoj\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\simoj\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\simoj\\Documents\\Jakob Šula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\BookingSite.csproj",
+      "projectUniqueName": "C:\\Users\\simoj\\Documents\\Jakob Šula\\Fkas 2 letnik\\Razvoj informacijskih sistemov\\RIS-koncna\\BookingSite\\BookingSite.csproj",
       "projectName": "BookingSite",
-      "projectPath": "C:\\Users\\simoj\\Documents\\Jakob Šula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\BookingSite.csproj",
+      "projectPath": "C:\\Users\\simoj\\Documents\\Jakob Šula\\Fkas 2 letnik\\Razvoj informacijskih sistemov\\RIS-koncna\\BookingSite\\BookingSite.csproj",
       "packagesPath": "C:\\Users\\simoj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\simoj\\Documents\\Jakob Šula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\obj\\",
+      "outputPath": "C:\\Users\\simoj\\Documents\\Jakob Šula\\Fkas 2 letnik\\Razvoj informacijskih sistemov\\RIS-koncna\\BookingSite\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\simoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4902,7 +4897,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

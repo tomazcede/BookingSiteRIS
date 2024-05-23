@@ -1,61 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\",
+  "WorkspaceRootPath": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2 letnik\\Razvoj informacijskih sistemov\\RIS-koncna\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2.letnik\\razvoj informacijskih sistemov\\pr\\bookingsite\\views\\listing\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|solutionrelative:bookingsite\\views\\listing\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2.letnik\\razvoj informacijskih sistemov\\pr\\bookingsite\\views\\listing\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|solutionrelative:bookingsite\\views\\listing\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2.letnik\\razvoj informacijskih sistemov\\pr\\bookingsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2 letnik\\razvoj informacijskih sistemov\\ris-koncna\\bookingsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|solutionrelative:bookingsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2.letnik\\razvoj informacijskih sistemov\\pr\\bookingsite\\model\\listingi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|solutionrelative:bookingsite\\model\\listingi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2 letnik\\razvoj informacijskih sistemov\\ris-koncna\\bookingsite\\views\\listing\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|solutionrelative:bookingsite\\views\\listing\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2.letnik\\razvoj informacijskih sistemov\\pr\\bookingsite\\controllers\\listingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|solutionrelative:bookingsite\\controllers\\listingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2.letnik\\razvoj informacijskih sistemov\\pr\\bookingsite\\views\\listing\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|solutionrelative:bookingsite\\views\\listing\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2.letnik\\razvoj informacijskih sistemov\\pr\\bookingsite\\model\\listingimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|solutionrelative:bookingsite\\model\\listingimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2.letnik\\razvoj informacijskih sistemov\\pr\\bookingsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|solutionrelative:bookingsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2.letnik\\razvoj informacijskih sistemov\\pr\\bookingsite\\model\\bookingdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|solutionrelative:bookingsite\\model\\bookingdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2.letnik\\razvoj informacijskih sistemov\\pr\\bookingsite\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|solutionrelative:bookingsite\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2.letnik\\razvoj informacijskih sistemov\\pr\\bookingsite\\views\\uporabniki\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|solutionrelative:bookingsite\\views\\uporabniki\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2.letnik\\razvoj informacijskih sistemov\\pr\\bookingsite\\views\\uporabniki\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2 letnik\\razvoj informacijskih sistemov\\ris-koncna\\bookingsite\\views\\uporabniki\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|solutionrelative:bookingsite\\views\\uporabniki\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2.letnik\\razvoj informacijskih sistemov\\pr\\bookingsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|solutionrelative:bookingsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2 letnik\\razvoj informacijskih sistemov\\ris-koncna\\bookingsite\\controllers\\listingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|solutionrelative:bookingsite\\controllers\\listingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2.letnik\\razvoj informacijskih sistemov\\pr\\bookingsite\\controllers\\uporabnikicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2 letnik\\razvoj informacijskih sistemov\\ris-koncna\\bookingsite\\model\\uporabniki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|solutionrelative:bookingsite\\model\\uporabniki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|c:\\users\\simoj\\documents\\jakob \u0161ula\\fkas 2 letnik\\razvoj informacijskih sistemov\\ris-koncna\\bookingsite\\controllers\\uporabnikicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A832FE4-D36E-42BF-A9AB-FB5966EB6042}|BookingSite\\BookingSite.csproj|solutionrelative:bookingsite\\controllers\\uporabnikicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,189 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2 letnik\\Razvoj informacijskih sistemov\\RIS-koncna\\BookingSite\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "BookingSite\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2 letnik\\Razvoj informacijskih sistemov\\RIS-koncna\\BookingSite\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "BookingSite\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T23:16:06.937Z",
+              "WhenOpened": "2024-05-22T10:17:18.866Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Views\\Listing\\List.cshtml",
+              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2 letnik\\Razvoj informacijskih sistemov\\RIS-koncna\\BookingSite\\Views\\Listing\\List.cshtml",
               "RelativeDocumentMoniker": "BookingSite\\Views\\Listing\\List.cshtml",
-              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Views\\Listing\\List.cshtml",
+              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2 letnik\\Razvoj informacijskih sistemov\\RIS-koncna\\BookingSite\\Views\\Listing\\List.cshtml",
               "RelativeToolTip": "BookingSite\\Views\\Listing\\List.cshtml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAFAAAAAKAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEUAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T00:37:05.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Views\\Listing\\Create.cshtml",
-              "RelativeDocumentMoniker": "BookingSite\\Views\\Listing\\Create.cshtml",
-              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Views\\Listing\\Create.cshtml",
-              "RelativeToolTip": "BookingSite\\Views\\Listing\\Create.cshtml",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAYwCoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T23:30:02.413Z",
+              "WhenOpened": "2024-05-22T10:16:52.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Listingi.cs",
-              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Model\\Listingi.cs",
-              "RelativeDocumentMoniker": "BookingSite\\Model\\Listingi.cs",
-              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Model\\Listingi.cs",
-              "RelativeToolTip": "BookingSite\\Model\\Listingi.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAA7AAAA",
+              "Title": "ListingController.cs",
+              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2 letnik\\Razvoj informacijskih sistemov\\RIS-koncna\\BookingSite\\Controllers\\ListingController.cs",
+              "RelativeDocumentMoniker": "BookingSite\\Controllers\\ListingController.cs",
+              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2 letnik\\Razvoj informacijskih sistemov\\RIS-koncna\\BookingSite\\Controllers\\ListingController.cs",
+              "RelativeToolTip": "BookingSite\\Controllers\\ListingController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGcAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T22:37:18.645Z",
+              "WhenOpened": "2024-05-22T10:11:57.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "BookingSite\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "BookingSite\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAADYAAAAAAAAAAAAgwFkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-21T22:33:48.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Views\\Listing\\Index.cshtml",
-              "RelativeDocumentMoniker": "BookingSite\\Views\\Listing\\Index.cshtml",
-              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Views\\Listing\\Index.cshtml",
-              "RelativeToolTip": "BookingSite\\Views\\Listing\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAAASAAAA",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2 letnik\\Razvoj informacijskih sistemov\\RIS-koncna\\BookingSite\\Views\\Uporabniki\\Register.cshtml",
+              "RelativeDocumentMoniker": "BookingSite\\Views\\Uporabniki\\Register.cshtml",
+              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2 letnik\\Razvoj informacijskih sistemov\\RIS-koncna\\BookingSite\\Views\\Uporabniki\\Register.cshtml",
+              "RelativeToolTip": "BookingSite\\Views\\Uporabniki\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T22:33:29.088Z",
+              "WhenOpened": "2024-05-22T09:41:28.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ListingController.cs",
-              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Controllers\\ListingController.cs",
-              "RelativeDocumentMoniker": "BookingSite\\Controllers\\ListingController.cs",
-              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Controllers\\ListingController.cs",
-              "RelativeToolTip": "BookingSite\\Controllers\\ListingController.cs",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAYwIUAAAAAAAAA",
+              "Title": "Uporabniki.cs",
+              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2 letnik\\Razvoj informacijskih sistemov\\RIS-koncna\\BookingSite\\Model\\Uporabniki.cs",
+              "RelativeDocumentMoniker": "BookingSite\\Model\\Uporabniki.cs",
+              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2 letnik\\Razvoj informacijskih sistemov\\RIS-koncna\\BookingSite\\Model\\Uporabniki.cs",
+              "RelativeToolTip": "BookingSite\\Model\\Uporabniki.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAUwBwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T03:34:45.185Z",
+              "WhenOpened": "2024-05-22T09:36:59.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "BookingSite\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "BookingSite\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAYwBYAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T03:11:08.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Program.cs",
-              "RelativeDocumentMoniker": "BookingSite\\Program.cs",
-              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Program.cs",
-              "RelativeToolTip": "BookingSite\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T02:57:10.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Views\\Uporabniki\\Login.cshtml",
-              "RelativeDocumentMoniker": "BookingSite\\Views\\Uporabniki\\Login.cshtml",
-              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Views\\Uporabniki\\Login.cshtml",
-              "RelativeToolTip": "BookingSite\\Views\\Uporabniki\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T02:56:54.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Views\\Uporabniki\\Register.cshtml",
-              "RelativeDocumentMoniker": "BookingSite\\Views\\Uporabniki\\Register.cshtml",
-              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Views\\Uporabniki\\Register.cshtml",
-              "RelativeToolTip": "BookingSite\\Views\\Uporabniki\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T02:56:43.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "UporabnikiController.cs",
-              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Controllers\\UporabnikiController.cs",
+              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2 letnik\\Razvoj informacijskih sistemov\\RIS-koncna\\BookingSite\\Controllers\\UporabnikiController.cs",
               "RelativeDocumentMoniker": "BookingSite\\Controllers\\UporabnikiController.cs",
-              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Controllers\\UporabnikiController.cs",
+              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2 letnik\\Razvoj informacijskih sistemov\\RIS-koncna\\BookingSite\\Controllers\\UporabnikiController.cs",
               "RelativeToolTip": "BookingSite\\Controllers\\UporabnikiController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHMAAAAAAAAA",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAGwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T02:56:13.553Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ListingImage.cs",
-              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Model\\ListingImage.cs",
-              "RelativeDocumentMoniker": "BookingSite\\Model\\ListingImage.cs",
-              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Model\\ListingImage.cs",
-              "RelativeToolTip": "BookingSite\\Model\\ListingImage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T22:37:41.831Z",
+              "WhenOpened": "2024-05-22T09:33:18.63Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BookingDatabaseContext.cs",
-              "DocumentMoniker": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Model\\BookingDatabaseContext.cs",
-              "RelativeDocumentMoniker": "BookingSite\\Model\\BookingDatabaseContext.cs",
-              "ToolTip": "C:\\Users\\simoj\\Documents\\Jakob \u0160ula\\Fkas 2.letnik\\Razvoj informacijskih sistemov\\pr\\BookingSite\\Model\\BookingDatabaseContext.cs",
-              "RelativeToolTip": "BookingSite\\Model\\BookingDatabaseContext.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwDMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T02:54:35.905Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
